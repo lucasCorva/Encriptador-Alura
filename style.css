@@ -1,0 +1,134 @@
+html{
+    background: linear-gradient(to bottom, transparent -10%, #1B4F72);
+    font-family: 'Caveat', cursive;
+}   
+
+img{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+
+.encabezado__titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado__titulo{
+    color: #000;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin: 0 80px;
+}
+
+.encriptador{
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.encriptador__contenedor{
+    padding: 8px 20px;
+}
+
+.encriptador__textarea{
+    resize: none;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+::placeholder { color: #0A3871; font-size: 2em;}
+  .text-area:focus {
+      outline: none;
+    }
+
+.encriptador p {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.encriptador__botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.encriptador__boton-encriptar{
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    background: #c0c0c0;
+    color: #000;
+    margin-right: 15px;
+    font-size: 1.4em;
+}
+
+.encriptador__boton-desencriptar{
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    background: #c0c0c0;
+    color: #000;
+    font-size: 1.4em;
+}
+
+.resultadoEncriptado{
+    background-image: url("imagenes/Muñeco.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}   
+
+.resultadoEncriptado__textarea{
+    resize: none;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.resultadoEncriptado__textarea::placeholder{ 
+    font-size: 1.5em;
+    vertical-align: text-bottom;
+}
+
+.resultadoEncriptado__boton-copiar{
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    background: #c0c0c0;
+    color: #000;
+    margin: 25px auto;
+    font-size: 1.4em;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    margin: 0px 0;
+    font-size: 1.5em;
+}

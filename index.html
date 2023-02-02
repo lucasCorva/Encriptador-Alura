@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>El Crittografatore</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="encabezado">
+                <div class="encabezado__img">   
+                    <img src="imagenes/Vector.png" alt="Logo de Alura">
+                </div>
+                <div class="encabezado__titulo">
+                    <h1 class="titulo">Challenge 1 - Encriptando</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="encriptador">
+                <div class="encriptador__contenedor">
+                    <textarea class="encriptador__textarea" cols="80" rows="20" placeholder="Ingrese el texto aqui" required></textarea>
+                    <p>&#10071;Solo letras minisculas y sin acentos</p> 
+                    <div class="encriptador__botones">
+                        <button class="encriptador__boton-encriptar">Encriptar</button>
+                        <button class="encriptador__boton-desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+                
+            </section>   
+            <section class="resultadoEncriptado">
+                <textarea class="resultadoEncriptado__textarea" cols="50" rows="20" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <button class="resultadoEncriptado__boton-copiar">Copiar</button>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright">&#169; 2023 - Lucas Corva</p>
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
+    
