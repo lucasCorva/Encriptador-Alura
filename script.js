@@ -9,8 +9,13 @@
                  2- La que tiene el texto encriptado y lo muestra
                  3-  */ 
 
-const textArea = document.querySelector(".encriptador__textarea");
-const aEncriptar = textArea.value;
+const textarea = document.getElementById("textArea__encriptador");
+const text = textarea.value;
+var texto_encriptar = [];
+texto_encriptar.push(text);
+
+console.log(texto_encriptar);
+
 
 //function encriptar(){
 //   alert("anda");
